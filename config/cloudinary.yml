@@ -1,0 +1,6 @@
+development:
+  cloud_name: watchtowerandfriends
+  api_key: '848434875236525'
+  api_secret: 9rhke03b67Eeop7Zds1_5HLhFvs
+  enhance_image_tag: true
+  static_image_support: false
