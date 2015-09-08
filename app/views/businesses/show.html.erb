@@ -3,6 +3,9 @@
 <p>
   <strong>Name:</strong>
   <%= @business.name %>
+  <% if @business.comp_image? %>
+      <%= cl_image_tag(@business.comp_image.path, { size: '50x50', crop: :thumb, gravity: :face }) %>
+  <% end %>
 </p>
 
 <%= link_to 'Edit', edit_business_path(@business) %> |
